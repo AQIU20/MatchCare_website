@@ -14,7 +14,7 @@
             theme: {
                 extend: {
                     colors: {
-                        dark: '#0f172a',
+                        dark: '#0f172a', // 深灰蓝背景
                         accent: '#3b82f6'
                     }
                 }
@@ -31,9 +31,9 @@
         <i class="fa fa-github text-3xl"></i>
     </a>
     
-    <!-- YouTube视频（带侧边留白） -->
-    <div class="w-full max-w-4xl mx-auto px-4 md:px-8">
-        <!-- 16:9标准视频比例，增加柔和阴影 -->
+    <!-- 视频容器：增大最大宽度，保持响应式 -->
+    <div class="w-full max-w-5xl mx-auto px-4 md:px-6">
+        <!-- 16:9比例，更大尺寸显示 -->
         <div class="aspect-video rounded-lg overflow-hidden shadow-xl">
             <iframe 
                 width="100%" 
@@ -47,7 +47,7 @@
         </div>
     </div>
 
-    <!-- 底部留白，避免视频太靠近页面底部 -->
+    <!-- 底部留白 -->
     <div class="mt-16"></div>
 </body>
 </html>
